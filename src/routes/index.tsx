@@ -124,7 +124,7 @@ const projects = [
     title: "Nova Studio",
     category: "Design · Editor",
     description: "Editor visuale per creare layout, pagine e prototipi esportabili.",
-    href: "https://github.com/lxfx07/Nova-Studio",
+    href: "https://github.com/lxfx0/Nova-Studio",
   },
   {
     title: "File Share 98",
@@ -320,7 +320,7 @@ const ContactForm = memo(function ContactForm() {
       />
       <div className="flex flex-col gap-3 pt-1 sm:flex-row">
         <a
-          href={`https://wa.me/393924484032?text=${encodeURIComponent(text)}`}
+          href={`https://wa.me/3522266056?text=${encodeURIComponent(text)}`}
           target="_blank"
           rel="noreferrer"
           className="flex-1 rounded-full bg-primary px-6 py-3 text-center text-sm font-medium text-primary-foreground transition-transform duration-300 hover:scale-[1.03] active:scale-95"
@@ -386,7 +386,7 @@ function Index() {
             ))}
           </ul>
           <a
-            href="https://github.com/lxfx057"
+            href="https://github.com/lxfx05"
             target="_blank"
             rel="noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
