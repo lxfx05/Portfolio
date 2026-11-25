@@ -1,7 +1,5 @@
-import { useRef, useState, memo, useCallback, type MouseEvent } from "react";
+import { memo } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { useScrollReveal, useScrollSpy, useHideOnScroll } from "@/hooks/use-scroll-reveal";
-import { usePointerGlow, useScrollProgress } from "@/hooks/use-pointer-glow";
 
 const TITLE = "Luca Finaldi — UI/UX Designer & Web App Developer";
 const DESCRIPTION =
@@ -184,4 +182,23 @@ const contactLinks = [
 /** Etichetta numerata sopra ai titoli di sezione. */
 const Eyebrow = memo(function Eyebrow({ index, label }: { index: string; label: string }) {
   return (
-    <p className="reveal mb-4 flex items-center gap-3 text-xs font-medium tracking-[0.2em
+    <p className="reveal mb-4 flex items-center gap-3 text-xs font-medium tracking-[0.2em] uppercase">
+      <span>{index}</span>
+      <span>{label}</span>
+    </p>
+  );
+});
+
+function Index() {
+  return (
+    <main data-sections={sectionIds.join(",")}>
+      <nav aria-label="Navigazione principale">
+        {nav.map((item) => (
+          <a key={item.id} href={`#${item.id}`}>
+            {item.label}
+          </a>
+        ))}
+      </nav>
+    </main>
+  );
+}
