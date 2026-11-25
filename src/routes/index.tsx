@@ -112,25 +112,25 @@ const projects = [
     title: "Audify",
     category: "Audio · Web app",
     description: "Lettore multimediale locale con playlist, preferiti e equalizzatore.",
-    href: "https://github.com/lxfx057/Audify",
+    href: "https://github.com/lxfx05/Audify",
   },
   {
     title: "Universal Modding Center",
     category: "Android · iOS",
     description: "Centro di risorse e guide per strumenti Android e procedure iOS supportate.",
-    href: "https://github.com/lxfx057/Modding-Universal-",
+    href: "https://github.com/lxfx05/Modding-Universal-",
   },
   {
     title: "Nova Studio",
     category: "Design · Editor",
     description: "Editor visuale per creare layout, pagine e prototipi esportabili.",
-    href: "https://github.com/lxfx057/Nova-Studio",
+    href: "https://github.com/lxfx07/Nova-Studio",
   },
   {
     title: "File Share 98",
     category: "WebRTC · Sharing",
     description: "Esperimento di trasferimento file tra dispositivi tramite collegamento temporaneo.",
-    href: "https://github.com/lxfx057/file-share",
+    href: "https://github.com/lxfx05/file-share",
   },
 ];
 
