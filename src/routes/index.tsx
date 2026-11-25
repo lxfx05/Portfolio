@@ -175,10 +175,10 @@ const contactLinks = [
   },
   {
     label: "Instagram",
-    value: "@lukafinaldi_",
-    href: "https://www.instagram.com/lukafinaldi_/",
+    value: "@luke_romanov_05",
+    href: "https://www.instagram.com/luke_romanov_05?evlk=b2F1N242NHQybGNs",
   },
-  { label: "WhatsApp", value: "+39 392 4484032", href: "https://wa.me/393924484032" },
+  { label: "WhatsApp", value: "+39 352 2266056", href: "https://wa.me/393924484032" },
 ];
 
 /** Etichetta numerata sopra ai titoli di sezione. */
